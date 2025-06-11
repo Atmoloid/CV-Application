@@ -67,13 +67,24 @@ button:focus-visible {
 }
 #form{ 
    width: 650px;
-  height: 600px;
+  height: 100%;
   background-color: white;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  border-radius: 10%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 5%;
+  gap: 15px;
 }
 #form > h1 {
   color: black;
+  display: flex;
+}
+
+#form > input{
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  font-size: larger;
+  color: #1a1a1a;
 }

@@ -1,20 +1,38 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+/*import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'*/
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [form, setForm] = useState(0)
 
   return (
     <>
     <div id='form'>
       <h1>Name</h1>
-      
+      <input type='text' placeholder='Enter your name' />
 
+        <h1>Surname</h1>
+        <input type='text' placeholder='Enter your surname' />
 
+        <h1>Email</h1>
+        <input type='email' placeholder='Enter your email' />
 
-    </div>
+        <h1>Phone Number</h1>
+        <input type='tel' placeholder='Enter your phone number' />
+
+        <h1>Address</h1>
+        <input type='text' placeholder='Enter your address' />
+
+        <h1>Work Experience</h1>
+        <input type='text' placeholder='Enter your work experience' />
+
+        <h1>Education</h1>
+        <input type='text' placeholder='Enter your education' />
+
+        <br />
+        <button type='submit'>Submit</button>
+       </div>
    
 
 
