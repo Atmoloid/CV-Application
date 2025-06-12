@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-    <div id='form'>
+    <div id="form-container">
+    <div className='form'>
       <h1>Name</h1>
       <input type='text' placeholder='Enter your name' />
 
@@ -34,10 +35,33 @@ function App() {
         <button type='submit'>Submit</button>
        </div>
    
+       <div className='form' id='second-form'>
+      <h1>Name</h1>
+      <input type='text'  readOnly/>
 
+        <h1>Surname</h1>
+        <input type='text'  readOnly />
 
+        <h1>Email</h1>
+        <input type='email'  readOnly/>
 
-    </> 
+        <h1>Phone Number</h1>
+        <input type='tel'  readOnly/>
+
+        <h1>Address</h1>
+        <input type='text'  readOnly/>
+
+        <h1>Work Experience</h1>
+        <input type='text'  readOnly/>
+
+        <h1>Education</h1>
+        <input type='text' readOnly/>
+
+        <br />
+      </div>
+      </div>
+
+       </> 
   )
 }
 
